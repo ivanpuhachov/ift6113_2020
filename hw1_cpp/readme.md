@@ -3,6 +3,9 @@ This code was melted together from [libigl-example-project](https://github.com/l
 
 **Remark**: This code is not optimized, but it gets the work done.
 
+# Usage
+Provide short description on how to run your code from command line.
+
 ## Prerequisites
 For ubuntu:
 ```bash
