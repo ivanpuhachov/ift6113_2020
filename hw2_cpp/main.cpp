@@ -22,7 +22,7 @@ int main(int argc, char * argv[])
     viewer.data().set_mesh(V,F);
 //    viewer.data().compute_normals();
 
-    int selectedcolumn=0;
+    int selectedcolumn=-1; // it will be updated to 0 once we run viewer.callback_key_down(...)
     viewer.callback_key_down = [&](igl::opengl::glfw::Viewer & viewer,unsigned char key,int)->bool
     {
         switch(key)
