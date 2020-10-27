@@ -2,6 +2,7 @@ __pycache__
 .ipynb_checkpoints
 .idea
 build
-cmake-build-debug
+cmake-build-debug/
+cmake-build-release/
 plots/
 output/
